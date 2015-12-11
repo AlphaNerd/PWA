@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+div:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 12px sans-serif;
+    padding: 2%;
+}
+
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+date {
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: block;
+    color: #adab4a;
+    font-weight: 900;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+div#map_div {
+    max-width: 100%;
+    margin: 10px auto;
+    border: 1px solid #bbb;
+    max-height: 400px;
+    background: url(../images/map-back.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 10px auto 0 auto;
+}
+
+div#map_div h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    color: #101f96;
+}
+
+category {
+    color: #adab4a;
+    margin-right: 5px;
+}
+
+
+.console {
+    font-family: 'Roboto Slab', serif;
+    display: block;
+    position: relative;
+    z-index: 1;
+    right: 0px;
+    top: 0px;
+    font-size: 26px;
+    background: rgba(173,171,74,0.75);
+    padding: 10px 20px 10px 60px;
+    color: #101f96;
+    border-bottom: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    min-height: 40px;
+}
+
+.console .title:before {
+    content: "";
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 6px;
+    left: 7px;
+    background-repeat: no-repeat;
+    background: url(../images/logo.png);
+    z-index: 1;
+    background-size: contain;
+}
+
+.modal{
+    font-family: 'Yellowtail', cursive;
+    width:40%;
+    height:125px;
+    position: absolute;
+    top:10%;
+    left:20%;
+    background:rgba(16,31,150,0.90);
+    border-radius:15px;
+    z-index: 2;
+    color:#fff;
+    text-align: center;
+    padding:10%;
+    font-size:48px;
+}
+
+#type_select{
+    margin:0px 0;
+    float: right;
+}
+
+.console .title {
+    float: left;
+    margin-top: 3px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#map_div p.desc {
+    max-width: 250px;
+}
+
+#map_div .youtube{
+    margin:10px auto;
+}
